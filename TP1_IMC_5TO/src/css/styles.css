@@ -1,0 +1,87 @@
+/* Estilo general */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(226, 226, 226);
+    background-image: url('../img/img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center bottom;
+}
+
+/* Contenedor principal */
+.center {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.8); /* Fondo blanco con transparencia */
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+    width: 100%;
+}
+
+/* Título */
+h1 {
+    color: #f706af;
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Estilo de los campos de entrada */
+input[type="number"] {
+    width: 90%;
+    padding: 12px;
+    font-size: 16px;
+    margin: 10px 0;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input[type="number"]:focus {
+    border-color: #f706af;
+    outline: none;
+}
+
+/* Botón */
+button {
+    width: 90%;
+    padding: 12px;
+    background-color: #f706af;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #d30595;
+}
+
+/* Texto descriptivo */
+p {
+    font-size: 16px;
+    color: #555;
+    margin: 20px 0;
+    font-weight: normal;
+}
+
+/* Resultado */
+h2 {
+    font-size: 28px;
+    color: #4caf50;
+    margin-top: 20px;
+    font-weight: bold;
+}
