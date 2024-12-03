@@ -1,0 +1,87 @@
+/* Estilo general */
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+}
+
+/* Contenedor principal */
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+/* Título */
+h1 {
+    font-size: 24px;
+    color: #4facfe;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Grupo de entrada */
+.input-group, .output-group {
+    margin-bottom: 20px;
+}
+
+/* Etiquetas */
+label {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Entrada de texto y selector */
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 8px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+input:focus, select:focus {
+    border-color: #4facfe;
+    outline: none;
+}
+
+/* Botón */
+button {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    width: 100%;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #00f2fe, #4facfe);
+}
+
+/* Resultado */
+.output-group p {
+    font-size: 16px;
+    color: #555;
+    margin: 0;
+}
+
+#result {
+    font-weight: bold
+}
